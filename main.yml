@@ -1,5 +1,6 @@
 ---
 - name: Installing the packages
+  hosts: server
   remote_user: root
   become: true
   tasks:
