@@ -1,6 +1,6 @@
 ---
 - name: Installing the packages
-  hosts: staging-inventory
+  hosts: ansible_hosts
   remote_user: root
   become: true
   tasks:
