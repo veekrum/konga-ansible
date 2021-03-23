@@ -1,0 +1,11 @@
+---
+- name: Installing the packages
+  hosts: server
+  remote_user: root
+  become: true
+  tasks:
+     - name: Install docker and docker-compose
+       script: ./install_docker.sh 
+
+     - name: Install kong and konga
+       script: ./install_kong.sh
