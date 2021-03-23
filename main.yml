@@ -1,6 +1,6 @@
 ---
 - name: Installing the packages
-  host: 157.230.185.21
+  #host: 157.230.185.21
   remote_user: root
   become: true
   tasks:
