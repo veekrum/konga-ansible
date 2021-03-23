@@ -1,7 +1,7 @@
 ---
 - name: Installing the packages
   hosts: all
-  remote_user: root
+  remote_user: newuser
   become: true
   tasks:
      - name: Install docker and docker-compose
