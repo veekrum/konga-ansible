@@ -3,6 +3,7 @@ Ansible-playbook for installing the docker, docker-compose and also kong,konga a
 
 ## Requirements
   - Open port: 8080,80 and 443
+  - ansible 
 
 ### for running project
   - git clone the project
