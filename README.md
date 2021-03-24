@@ -7,9 +7,9 @@ Ansible-playbook for installing the docker, docker-compose and also kong,konga a
 ### for running project
   - git clone the project
   - change the ip in inventory
-  - run: ansible-playbook -i inventory main.yml
+  - run: `ansible-playbook -i inventory main.yml`
 ### where to see?
-  - http://Public_IP:8080
+  - `http://Public_IP:8080`
 ### Port Info
   - 8080 ## for konga web UI
   - 80 ## http port for kong
