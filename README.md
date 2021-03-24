@@ -1,5 +1,5 @@
 # #konga-ansible
-playbook for installing the docker and kong,konga and postgres
+Ansible-playbook for installing the docker, docker-compose and also kong,konga and postgres
 
 # for running project
   - git clone the project
