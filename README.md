@@ -1,4 +1,4 @@
-## konga-ansible
+## Kong API-gateway and konga UI with docker-compose wrapped with ansible
 Ansible-playbook for installing the docker, docker-compose and also kong,konga and postgres
 
 ## Requirements
